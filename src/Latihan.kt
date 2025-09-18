@@ -58,6 +58,9 @@ fun main() {
     println("$firstNumber1 - $secondNumber2 = $resultSubtact")
 
 
+    println("What yours name?")
+    val name = readln()
+    println("My name is $name")
 }
 
     fun add(a: Int, b: Int): Int {
