@@ -40,4 +40,8 @@ fun main() {
     val b = "hij"
     val c = b.uppercase() in a
         println("Number $b: $c")
+
+    val number2word = mapOf(1 to "one", 2 to "two", 3 to "three")
+    val n = 2
+    println("$n is spelt as '${number2word[n]}'")
 }
